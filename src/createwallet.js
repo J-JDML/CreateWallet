@@ -1,3 +1,6 @@
+// Resolução proposta pela documentação oficial do BIP32
+// site:https://www.npmjs.com/package/bip32
+
 const ecc = require('tiny-secp256k1')
 const { BIP32Factory } = require('bip32')
 const bip32 = BIP32Factory(ecc)
